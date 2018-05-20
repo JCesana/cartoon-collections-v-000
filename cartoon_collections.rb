@@ -19,5 +19,5 @@ def find_the_cheese(array)
   array.find do |element|
     element.include?(cheese_types) 
   end 
-   
+   nil
 end
